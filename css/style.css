@@ -1,0 +1,23 @@
+@import url("https://cdn.jsdelivr.net/gh/moonspam/NanumSquare@1.0/nanumsquare.css");
+@import url("https://fonts.googleapis.com/css2?family=Archivo+Black&family=Noto+Sans+KR:wght@700&display=swap");
+/* font */
+@import "reset.css";
+@import "variables.css";
+
+/*components*/
+@import "components/screen-footer.css";
+@import "components/nav-bar.css";
+
+/*screen*/
+
+body {
+  font-family: "Noto Sans kr", "NanumSquare", sans-serif;
+  color: #2f363e;
+}
+
+.separate {
+  display: inline-block;
+  width: 1px;
+  height: 12px;
+  background-color: #2f363e;
+}

@@ -5,19 +5,46 @@
 @import "variables.css";
 
 /*components*/
-@import "components/screen-footer.css";
+@import "components/footer.css";
 @import "components/nav-bar.css";
 
 /*screen*/
+@import "screen/screen-main.css";
+@import "screen/screen-story.css";
 
 body {
   font-family: "Noto Sans kr", "NanumSquare", sans-serif;
   color: #2f363e;
+  position: relative;
 }
 
 .separate {
   display: inline-block;
+  margin: 0px 5px;
   width: 1px;
   height: 12px;
   background-color: #2f363e;
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+.bgImage {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100vh;
+  z-index: -1;
+  animation: fadeIn 0.5s linear;
+}
+
+.story-bg {
+  opacity: 0.9;
 }

@@ -22,6 +22,8 @@
 .nav-bar_main-logo {
   height: 35px;
   width: 35px;
+  filter: contrast(80%);
+  filter: hue-rotate(-20deg);
 }
 
 .nav-bar_main-text {

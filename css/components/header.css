@@ -1,0 +1,44 @@
+header {
+  width: 100%;
+  height: 40vh;
+  padding: 300px 0px;
+  text-align: center;
+  color: white;
+}
+
+.header_title {
+  margin-top: 130px;
+  height: 100px;
+  font-size: 80px;
+}
+
+.header_text {
+  margin-bottom: 50px;
+}
+
+.header-story .fa-angle-down {
+  margin-top: 220px;
+  padding: 3px 10px;
+  border: 2px solid white;
+  border-radius: 50%;
+  color: white;
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+.bgImage {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 1000px;
+  z-index: -1;
+  animation: fadeIn 0.5s linear;
+}

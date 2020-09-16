@@ -1,20 +1,28 @@
 footer {
   font-family: "NanumSquare", sans-serif;
+  position: relative;
   width: 100%;
-  height: 250px;
-  background-color: #bdf2d9;
-  border: 1px solid rgba(0, 0, 0, 0.3);
-  border-bottom: none;
+  height: 400px;
   text-align: center;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  color: white;
 }
 
+.footer-contents {
+  width: 100%;
+  height: 250px;
+  margin-top: 30px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
 .footer-logo {
-  height: 20px;
-  width: 58px;
+  height: 30px;
+  width: 90px;
   margin-top: 20px;
 }
 
@@ -33,9 +41,28 @@ footer {
   display: block;
   margin: 20px 0px;
   padding: 5px 10px;
+  align-self: center;
 }
 
 .sns_link a {
   margin: 0px 15px;
-  color: #2f363e;
+  color: white;
+}
+
+.footer-ground {
+  position: absolute;
+  top: 20%;
+  left: 0;
+  width: 100%;
+  height: 80%;
+  z-index: -1;
+}
+
+.footer-plant {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 20%;
+  z-index: -1;
 }

@@ -1,4 +1,157 @@
-#link_story {
-  color: var(--green);
-  border-bottom: 3px solid var(--green);
+.main-story {
+  width: 100%;
+}
+
+.story-problems {
+  margin: 100px 16.18%;
+}
+
+.story_title {
+  width: 50%;
+  height: 150px;
+  margin: 150px 25% 300px 25%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: nowrap;
+  font-size: 2vw;
+}
+
+.story_intro {
+  position: relative;
+  margin-bottom: 400px;
+  width: 67.64vw;
+  height: 67.64vw;
+}
+
+.story_intro-text {
+  width: 75%;
+  height: 75%;
+  background-color: wheat;
+  z-index: -1;
+}
+
+.story_intro-text h2 {
+  display: block;
+  padding: 12vw 0 4vw 6vw;
+  font-size: 4vw;
+  font-weight: 500;
+}
+
+.story_intro-text span {
+  width: 15vw;
+  height: 10vw;
+  display: block;
+  padding: 0 0 0 8vw;
+  font-size: 1.3vw;
+}
+
+.story_intro-img img {
+  width: 58%;
+  height: auto;
+  top: 42%;
+  left: 42%;
+  position: absolute;
+}
+
+.story_problems-content {
+  width: 67.64vw;
+  height: 67.64vw;
+  margin-bottom: 10vw;
+}
+
+.story_problems-content_img {
+  padding-left: 5vw;
+}
+
+.story_problems-content_img img {
+  width: 30vw;
+  height: 40vw;
+}
+
+.story_problems-content_text {
+  width: 35vw;
+  height: 20vw;
+  padding-top: 5vw;
+  font-size: 1.4vw;
+}
+
+.story_problems-imgs {
+  width: 67.64vw;
+  height: 40vw;
+  position: relative;
+  margin-bottom: 17.64vw;
+}
+
+.story_problems-img_bg img {
+  position: absolute;
+  top: 0;
+  right: 17vw;
+  width: 25vw;
+  height: 30vw;
+
+  z-index: -1;
+}
+.story_problems-img_front img {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  width: 25vw;
+  height: 25vw;
+}
+
+.story-trying_bg {
+  width: 100%;
+  height: 700px;
+}
+
+.story_work {
+  border-top: 1px solid seagreen;
+  padding: 300px 0 200px 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  line-height: 1.5;
+}
+
+.story_work-line {
+  background-color: #e6e8dc;
+  padding: 2px 40px;
+}
+
+.story_work-title {
+  margin: 60px 0 120px 0;
+  text-align: center;
+  font-size: 16pt;
+}
+
+.story_work-icon_columns {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.story_work-icon_column {
+  margin: 0px 30px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.story_work-icon img {
+  width: 100px;
+  height: 100px;
+}
+
+.story_work-icon_text {
+  margin-top: 10px;
+  text-align: center;
+  font-size: 18px;
+}
+
+.story_work-icon_text strong {
+  font-size: 20px;
+  font-weight: 500;
 }

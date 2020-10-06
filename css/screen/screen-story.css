@@ -15,6 +15,7 @@
   align-items: center;
   flex-wrap: nowrap;
   font-size: 2vw;
+  font-weight: 300;
 }
 
 .story_intro {
@@ -27,7 +28,7 @@
 .story_intro-text {
   width: 75%;
   height: 75%;
-  background-color: wheat;
+  background-color: #f7f7f7;
   z-index: -1;
 }
 
@@ -98,11 +99,34 @@
   bottom: 0;
   width: 25vw;
   height: 25vw;
+  box-shadow: -80px -80px 10px 10px rgba(54, 44, 138, 0.1);
+}
+.story_trying {
+  width: 100%;
+  height: 90vh;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.story_trying h2 {
+  display: block;
+  color: white;
+  width: 50vw;
+  height: 10vw;
+  font-size: 1.5vw;
+  font-weight: 500;
 }
 
 .story-trying_bg {
+  position: absolute;
+  filter: brightness(50%);
+  top: 0;
+  left: 0;
   width: 100%;
-  height: 700px;
+  height: auto;
+  z-index: -1;
 }
 
 .story_work {

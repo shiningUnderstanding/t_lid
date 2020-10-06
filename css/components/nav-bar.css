@@ -1,7 +1,7 @@
 .nav-bar {
   position: fixed;
   width: 100%;
-  padding: 20px 0px;
+  padding: 10px 0px;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -13,7 +13,7 @@
 .nav-bar_main {
   display: flex;
   align-items: center;
-  margin-left: 60px;
+  margin-left: 3vw;
   text-decoration: none;
   font-size: 20px;
   font-weight: 800;
@@ -34,26 +34,36 @@
 }
 
 .nav-bar_column {
-  padding: 20px;
+  padding: 10px;
 }
 
 .nav-bar_column-link {
-  height: 40px;
+  height: 50px;
   display: flex;
   justify-content: center;
   text-align: center;
+  flex-shrink: 5;
 }
 
 .nav-bar_column-link a {
-  width: 140px;
-  margin-right: 40px;
+  margin-right: 4vw;
   text-decoration: none;
-  font-size: 22px;
+  font-size: 24px;
   font-weight: 800;
   color: #2f363e;
 }
 
+.nav-bar_column-link a:hover {
+  color: #8ecc68;
+  transition: 0.3s linear;
+}
+
 #link_story {
-  color: var(--green);
-  border-bottom: 3px solid var(--green);
+  color: #8ecc68;
+  border-bottom: 3px solid #8ecc68;
+}
+
+#link_contents {
+  color: #8ecc68;
+  border-bottom: 3px solid #8ecc68;
 }

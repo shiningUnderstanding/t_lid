@@ -1,5 +1,4 @@
 @import url("https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100;300;400;500;700;900&display=swap");
-/* font */
 @import "reset.css";
 @import "variables.css";
 
@@ -10,9 +9,20 @@
 /*screen*/
 @import "screen/screen-main.css";
 @import "screen/screen-story.css";
+@import "screen/screen-contents.css";
+
+html {
+  scroll-behavior: smooth;
+}
 
 body {
   font-family: "Noto Sans kr", sans-serif;
   color: #2f363e;
   position: relative;
+
+  line-height: 1.3;
+}
+
+main {
+  padding-top: 5vw;
 }

@@ -3,95 +3,73 @@
 }
 
 .story-problems {
-  margin: 100px 16.18%;
+  width: 63vw;
+  margin: 3vw 18.5vw;
+  padding-bottom: 3vw;
 }
 
 .story_title {
   width: 50%;
-  height: 150px;
-  margin: 150px 25% 300px 25%;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-wrap: nowrap;
+  height: 5vw;
+  margin: 3vw 25% 8vw 25%;
   font-size: 2vw;
-  font-weight: 300;
+  font-weight: 600;
+  text-align: center;
 }
 
 .story_intro {
-  position: relative;
-  margin-bottom: 400px;
-  width: 67.64vw;
-  height: 67.64vw;
+  margin-bottom: 10vw;
+  width: 63vw;
+  height: 28vw;
+  display: flex;
+  justify-content: space-between;
 }
 
 .story_intro-text {
-  width: 75%;
-  height: 75%;
-  background-color: #f7f7f7;
-  z-index: -1;
-}
-
-.story_intro-text h2 {
-  display: block;
-  padding: 12vw 0 4vw 6vw;
-  font-size: 4vw;
-  font-weight: 500;
-}
-
-.story_intro-text span {
-  width: 15vw;
-  height: 10vw;
-  display: block;
-  padding: 0 0 0 8vw;
+  padding-top: 11vw;
+  width: 20vw;
+  height: 20vw;
   font-size: 1.3vw;
 }
 
+.story_intro-text p:last-child {
+  margin-top: 2vw;
+  font-weight: 600;
+}
+
 .story_intro-img img {
-  width: 58%;
-  height: auto;
-  top: 42%;
-  left: 42%;
-  position: absolute;
+  width: 39vw;
+  height: 26vw;
 }
 
-.story_problems-content {
-  width: 67.64vw;
-  height: 67.64vw;
-  margin-bottom: 10vw;
-}
-
-.story_problems-content_img {
-  padding-left: 5vw;
-}
-
-.story_problems-content_img img {
-  width: 30vw;
-  height: 40vw;
-}
-
-.story_problems-content_text {
-  width: 35vw;
-  height: 20vw;
-  padding-top: 5vw;
-  font-size: 1.4vw;
-}
-
-.story_problems-imgs {
-  width: 67.64vw;
-  height: 40vw;
-  position: relative;
-  margin-bottom: 17.64vw;
-}
-
-.story_problems-img_bg img {
-  position: absolute;
-  top: 0;
-  right: 17vw;
-  width: 25vw;
+.story_problem {
+  margin: 13vw 0;
+  width: 63vw;
   height: 30vw;
+  display: flex;
+  justify-content: space-between;
+}
 
-  z-index: -1;
+.story_problem-text {
+  padding-top: 17vw;
+  width: 30vw;
+  height: 20vw;
+  font-size: 1.3vw;
+}
+
+.story_problem-text p:first-child {
+  font-weight: 600;
+  padding-bottom: 2vw;
+}
+
+.story_problem-text p:last-child {
+  width: 26.25vw;
+  text-align: justify;
+}
+
+.story_problem-img img {
+  width: 30vw;
+  height: 36vw;
 }
 .story_problems-img_front img {
   position: absolute;
@@ -103,20 +81,24 @@
 }
 .story_trying {
   width: 100%;
-  height: 90vh;
+  height: 30vw;
   position: relative;
-  display: flex;
-  justify-content: center;
-  align-items: center;
 }
 
 .story_trying h2 {
   display: block;
   color: white;
+  padding: 10vw 0 10vw 18.5vw;
   width: 50vw;
-  height: 10vw;
+  height: 20vw;
   font-size: 1.5vw;
   font-weight: 500;
+  line-height: 2;
+}
+
+.story_trying h2 span {
+  font-size: 1.6vw;
+  font-weight: 900;
 }
 
 .story-trying_bg {
@@ -125,13 +107,13 @@
   top: 0;
   left: 0;
   width: 100%;
-  height: auto;
+  height: 30vw;
   z-index: -1;
 }
 
 .story_work {
   border-top: 1px solid seagreen;
-  padding: 300px 0 200px 0;
+  padding: 13vw 0 10vw 0;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -139,43 +121,50 @@
   line-height: 1.5;
 }
 
-.story_work-line {
-  background-color: #e6e8dc;
-  padding: 2px 40px;
-}
-
 .story_work-title {
-  margin: 60px 0 120px 0;
+  margin-bottom: 2vw;
   text-align: center;
-  font-size: 16pt;
+  font-size: 1.5vw;
 }
 
 .story_work-icon_columns {
+  margin-top: 3vw;
   display: flex;
   justify-content: center;
   align-items: center;
 }
 
 .story_work-icon_column {
-  margin: 0px 30px;
+  margin: 0px 2vw;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
 }
 
+.story_work-icon_column a {
+  text-decoration: none;
+  color: #2f363e;
+}
+
+.story_work-icon_column:hover .story_work-icon_text {
+  background: linear-gradient(to right, #eecb27, #8ecc68, #40ba65);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
 .story_work-icon img {
-  width: 100px;
-  height: 100px;
+  width: 10vw;
+  height: 10vw;
 }
 
 .story_work-icon_text {
-  margin-top: 10px;
+  margin-top: 1vw;
   text-align: center;
-  font-size: 18px;
+  font-size: 1.1vw;
 }
 
 .story_work-icon_text strong {
-  font-size: 20px;
-  font-weight: 500;
+  font-size: 1.5vw;
+  font-weight: 600;
 }

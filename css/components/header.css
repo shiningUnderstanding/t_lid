@@ -1,4 +1,4 @@
-header {
+.header {
   width: 100%;
   height: 46vw;
   padding-top: 5vw;
@@ -6,21 +6,21 @@ header {
   color: white;
 }
 
-.header_title {
+.header__title {
   margin-top: 13vw;
-  height: 8vw;
-  font-size: 6vw;
+  height: 6vw;
+  font-size: 4vw;
   font-weight: 900;
   text-shadow: 5px 5px 10px rgba(0, 0, 0, 0.7);
 }
 
-.header_text {
-  margin-top: 2vw;
+.header__text {
+  font-size: 1.3vw;
   font-weight: 500;
 }
 
-.header-story a img {
-  margin-top: 8vw;
+header a img {
+  margin-top: 14vw;
   width: 3vw;
   height: 3vw;
 }
@@ -34,7 +34,7 @@ header {
   }
 }
 
-.bgImage {
+.bg {
   position: absolute;
   top: 0;
   left: 0;

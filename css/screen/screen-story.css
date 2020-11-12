@@ -1,170 +1,224 @@
-.main-story {
+.header-story {
+  background-image: url("../../img/background/stroy-down.jpg");
+  background-position: 50% 50%;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.story {
   width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 
-.story-problems {
-  width: 63vw;
-  margin: 3vw 18.5vw;
-  padding-bottom: 3vw;
+.slogan {
+  margin: 8vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 
-.story_title {
-  width: 50%;
-  height: 5vw;
-  margin: 3vw 25% 8vw 25%;
-  font-size: 2vw;
-  font-weight: 600;
+.slogan__title {
+  font-size: 20px;
+  font-weight: 300;
   text-align: center;
+  margin-bottom: 11vh;
 }
 
-.story_intro {
-  margin-bottom: 10vw;
-  width: 63vw;
-  height: 28vw;
+.mission {
+  width: 1000px;
+  max-width: 100%;
   display: flex;
-  justify-content: space-between;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 
-.story_intro-text {
-  padding-top: 11vw;
-  width: 20vw;
-  height: 20vw;
-  font-size: 1.3vw;
+.point {
+  width: 7px;
+  height: 7px;
+  background: #40ba65;
 }
 
-.story_intro-text p:last-child {
-  margin-top: 2vw;
-  font-weight: 600;
+.mission__title {
+  margin-top: 3vh;
+  font-size: 20px;
+  font-weight: 300;
+  color: #797979;
 }
 
-.story_intro-img img {
-  width: 39vw;
-  height: 26vw;
+.mission__text {
+  text-align: center;
+  font-size: 14px;
+  line-height: 1.6;
+  margin-top: 6vh;
 }
 
-.story_problem {
-  margin: 13vw 0;
-  width: 63vw;
-  height: 30vw;
-  display: flex;
-  justify-content: space-between;
-}
-
-.story_problem-text {
-  padding-top: 17vw;
-  width: 30vw;
-  height: 20vw;
-  font-size: 1.3vw;
-}
-
-.story_problem-text p:first-child {
-  font-weight: 600;
-  padding-bottom: 2vw;
-}
-
-.story_problem-text p:last-child {
-  width: 26.25vw;
-  text-align: justify;
-}
-
-.story_problem-img img {
-  width: 30vw;
-  height: 36vw;
-}
-.story_problems-img_front img {
-  position: absolute;
-  right: 0;
-  bottom: 0;
-  width: 25vw;
-  height: 25vw;
-  box-shadow: -80px -80px 10px 10px rgba(54, 44, 138, 0.1);
-}
-.story_trying {
+.problems {
   width: 100%;
-  height: 30vw;
-  position: relative;
+  display: flex;
+  justify-content: center;
+  margin-top: 8vh;
+  margin-bottom: 30vh;
 }
 
-.story_trying h2 {
-  display: block;
-  color: white;
-  padding: 10vw 0 10vw 18.5vw;
-  width: 50vw;
-  height: 20vw;
-  font-size: 1.5vw;
+.problem {
+  width: 312px;
+  max-width: 32vw;
+  margin: 0 0.5vw;
+}
+
+.problem__img {
+  width: 312px;
+  max-width: 32vw;
+  height: 312px;
+  max-height: 32vw;
+  margin-bottom: 4vh;
+}
+
+.problem__text h3 {
+  font-size: 14px;
   font-weight: 500;
-  line-height: 2;
+  margin-bottom: 2vh;
 }
 
-.story_trying h2 span {
-  font-size: 1.6vw;
-  font-weight: 900;
+.problem__text p {
+  font-size: 14px;
+  font-weight: 300;
 }
 
-.story-trying_bg {
-  position: absolute;
-  filter: brightness(50%);
-  top: 0;
-  left: 0;
+.vision {
   width: 100%;
-  height: 30vw;
-  z-index: -1;
+  height: 100vh;
+  background-image: url("../../img/story/vision-bg.jpg");
+  background-position: 50% 50%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
-.story_work {
-  border-top: 1px solid seagreen;
-  padding: 13vw 0 10vw 0;
+.vision__title {
+  margin-top: 3vh;
+  font-size: 20px;
+  font-weight: 300;
+  color: #797979;
+}
+
+.vision__cards {
+  margin-top: 55vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.vision__card {
+  width: 300px;
+  height: 240px;
+  background-color: white;
+  border-top: 2px solid #3ebc68;
+  border-bottom: 2px solid #3ebc68;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 0 20px;
+  border-top-left-radius: 50px;
+}
+
+.vision__icon {
+  margin-top: 16px;
+}
+
+.vision__card h3 {
+  font-size: 20px;
+  font-weight: 600;
+  margin-top: 10px;
+  color: black;
+}
+
+.vision__card p {
+  font-size: 14px;
+  padding: 40px 0 0 20px;
+  line-height: 1.5;
+}
+
+.project {
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
   line-height: 1.5;
+  margin: 20vh 0;
 }
 
-.story_work-title {
-  margin-bottom: 2vw;
-  text-align: center;
-  font-size: 1.5vw;
+.project__title {
+  margin-top: 3vh;
+  font-size: 20px;
+  font-weight: 300;
+  color: #797979;
 }
 
-.story_work-icon_columns {
-  margin-top: 3vw;
+.project__text {
+  font-size: 14px;
+  line-height: 1.8;
+  margin-top: 4vh;
+}
+
+.project__columns {
+  margin-top: 6vh;
   display: flex;
   justify-content: center;
   align-items: center;
 }
 
-.story_work-icon_column {
-  margin: 0px 2vw;
+.project__column {
+  text-decoration: none;
+  color: #2f363e;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  margin: 40px;
 }
 
-.story_work-icon_column a {
-  text-decoration: none;
-  color: #2f363e;
-}
-
-.story_work-icon_column:hover .story_work-icon_text {
-  background: linear-gradient(to right, #eecb27, #8ecc68, #40ba65);
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-}
-
-.story_work-icon img {
-  width: 10vw;
-  height: 10vw;
-}
-
-.story_work-icon_text {
-  margin-top: 1vw;
-  text-align: center;
-  font-size: 1.1vw;
-}
-
-.story_work-icon_text strong {
-  font-size: 1.5vw;
+.project__column h3 {
+  margin-top: 2vh;
+  font-size: 16px;
   font-weight: 600;
+}
+
+.project__column p {
+  font-size: 14px;
+  font-weight: 300;
+  margin-bottom: 3vh;
+}
+
+.project__btn {
+  font-size: 14px;
+  font-weight: 300;
+  padding: 2px 25px;
+  border: 1px solid #2f363e;
+  border-radius: 16px;
+  transition: 0.5s ease-in-out;
+}
+
+.project__column:first-child:hover .project__btn {
+  background: linear-gradient(to right, #a4cd53, #40ba65, #35f0ca);
+  color: white;
+  border: 1px solid white;
+}
+
+.project__column:nth-child(2):hover .project__btn {
+  background: #ff0000;
+  color: white;
+  border: 1px solid white;
+}
+.project__column:last-child:hover .project__btn {
+  background: linear-gradient(65deg, #fdb852, #db236c, #635bcb);
+  color: white;
+  border: 1px solid white;
 }

@@ -13,30 +13,27 @@
   </head>
   <body>
     <nav class="nav-bar">
-      <div class="nav-bar__main">
-        <a href="index.html"
-          ><img class="nav-bar__logo" src="img/t_lid_shortcut_icon.png" />
-          <div class="nav-bar__logo-text">티리드</div></a
-        >
-      </div>
-      <div class="nav-bar__links">
-        <a href="story.html" id="link_story">STORY</a>
-        <a href="contents.html">CONTENTS</a>
-        <a href="product.html">PRODUCT</a>
-        <a href="contact.html">CONTACT</a>
+      <div class="nav-bar-container">
+        <div class="nav-bar__main">
+          <a href="index.html"
+            ><img class="nav-bar__logo" src="img/icon/logo.svg" />
+          </a>
+        </div>
+        <div class="nav-bar__links">
+          <a href="story.html">STORY</a>
+          <a href="contents.html">CONTENTS</a>
+          <a href="product.html" class="on">PRODUCT</a>
+          <a href="contact.html">CONTACT</a>
+        </div>
       </div>
     </nav>
 
-
-    <header class="header">
-      <h1 class="header__title">PRODUCT</h2>
+    <header class="header-story">
+      <h1 class="header__title">STORY</h1>
       <div class="header__text">우리의 이야기를 들려드립니다.</div>
-      <a href="#1"><i class="fas fa-angle-down fa-2x"></i></a>
-      
-    <img class="bg story-bg" src="img/7.jpg" />
     </header>
 
-    <main id = "1"class="main-story">
+    <main id="1" class="main-story">
       <content class="content-what">
         <div class="content-what">
           <div>
@@ -52,36 +49,31 @@
     </main>
 
     <footer class="footer">
-      <img class="footer__logo" src="img/t_lid_logo.png" />
-      <h3 class="company__name">티리드</h3>
-      <div class="company__info">
-        사업자등록번호 220 - 66 - 000288<br />
-        (16463) 수원시 팔달구 행궁로 98<br />
-        TEL : 000 - 000 - 0000 / FAX : 000 - 000 - 0000<br />
-        E-mail : 0000000@naver.com
+      <img class="footer__leaf" src="img/icon/footer-leaf.png" />
+      <div class="footer__info">
+        <div class="footer__logo">
+          <img src="img/icon/logo.svg" />
+          <h3>티 리 드</h3>
+        </div>
+        <div class="footer__info-detail">
+          <div class="business-number">
+            <span class="info__category">사업자등록번호 </span> 220-66-000288
+          </div>
+          <div class="footer__address">
+            <span class="info__category">주소 </span> 수원시 팔달구 행궁로 98
+            203호
+          </div>
+          <div class="footer__contact">
+            <span class="info__category">CONTACT </span> 000-000-0000 /
+            t-lid@daum.net
+            <div class="footer__link">
+              <img src="img/icon/youtube2.svg" />
+              <img src="img/icon/instagram.svg" />
+            </div>
+          </div>
+        </div>
       </div>
-      <div class="footer__sns">
-        <a
-          class="sns_link-youTube"
-          href="https://www.instagram.com/t_lids.information/"
-          target="blank"
-          ><i class="fab fa-youtube fa-2x"></i
-        ></a>
-        <a
-          class="sns_link-insta"
-          href="https://www.instagram.com/t_lids.information/"
-          target="blank"
-          ><i class="fab fa-instagram fa-2x"></i
-        ></a>
-        <a
-          class="sns_link-facebook"
-          href="https://www.facebook.com/people/%ED%8B%B0%EB%A6%AC%EB%93%9C/100052228642694"
-          target="blank"
-          ><i class="fab fa-facebook-square fa-2x"></i
-        ></a>
-      </div>
-      <img class="footer__plant" src="img/background/footer-plant.png" />
-      <img class="footer__ground" src="img/background/ground.png" />
+      <div class="copyright">Copyright ⓒ T-lids. All rights reserved.</div>
     </footer>
 
     <script

@@ -4,7 +4,7 @@
     <link
       rel="shortcut icon"
       sizes="16x16 32x32 64x64"
-      href="img/t_lid_shortcut_icon.png"
+      href="img/icon/t_lid_shortcut_icon.png"
     />
     <link rel="stylesheet" href="css/style.css" />
     <meta name="description" content="This is for environment" />
@@ -13,171 +13,186 @@
   </head>
   <body>
     <nav class="nav-bar">
-      <div class="nav-bar__main">
-        <a href="index.html"
-          ><img class="nav-bar__logo" src="img/t_lid_shortcut_icon.png" />
-          <div class="nav-bar__logo-text">티리드</div></a
-        >
-      </div>
-      <div class="nav-bar__links">
-        <a href="story.html">STORY</a>
-        <a href="contents.html" id="link__contents">CONTENTS</a>
-        <a href="product.html">PRODUCT</a>
-        <a href="contact.html">CONTACT</a>
+      <div class="nav-bar-container">
+        <div class="nav-bar__main">
+          <a href="index.html"
+            ><img class="nav-bar__logo" src="img/icon/logo.svg" />
+          </a>
+        </div>
+        <div class="nav-bar__links">
+          <a href="story.html">STORY</a>
+          <a href="contents.html" class="on">CONTENTS</a>
+          <a href="product.html">PRODUCT</a>
+          <a href="contact.html">CONTACT</a>
+        </div>
       </div>
     </nav>
 
-    <header class="header">
+    <header class="header-contents">
       <h2 class="header__title">CONTENTS</h2>
       <div class="header__text">
         환경문제, 우리가 먼저 공부해서 알려드립니다!
       </div>
-      <a href="#contents"><img src="img/아이콘/angle-down-white.png" /></a>
-      <img class="bg contents-bg" src="img/tmi/tmi-bc.jpg" />
     </header>
 
     <main id="contents">
       <div class="character">
         <div class="character__title"><h2>OUR CHARACTER</h2></div>
-        <div class="character__bg-img">
-          <img src="img/tmi/tmi-bc-short.jpg" />
-        </div>
-        <div class="character__text">
-          <h3>티미 (TMI)</h3>
-          <span>
-            환경문제, 투 머치 하게 알아도 부족한 지금!<br />
-            환경문제를 TMI하게 전달해드릴 티미입니다.
-          </span>
+        <a href="#contents"><img src="img/icon/arrow_down.png" /></a>
+        <div class="character__video">
+          <iframe
+            width="988"
+            height="556"
+            src="https://www.youtube.com/embed/Qg_ty4nE7hQ"
+            frameborder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+            allowfullscreen
+          ></iframe>
         </div>
       </div>
 
-      <div class="sns">
-        <div class="youtube">
-          <a
-            class="youtube__profile"
-            href="https://youtube.com/channel/UCF_ADUp8BIvjHF45Zch73JQ"
-            target="blank"
-          >
-            <img src="img/tmi/tmi-profile-you.png" />
-            <h2>티미의 TMI</h2>
-            <div class="youtube__btn">YouTube 바로가기</div>
-          </a>
-          <div class="youtube__video">
-            <iframe
-              width="988"
-              height="556"
-              src="https://www.youtube.com/embed/Qg_ty4nE7hQ"
-              frameborder="0"
-              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-              allowfullscreen
-            ></iframe>
-            <div class="youtube__text">
-              <h3>환경문제, 어떻게 찾아보시나요?</h3>
-              <p>
-                유튜브에서 환경문제를 쉽고, 재미있고, 정확하게! <br />그리고 더
-                많은 사람에게 알리기 위한 <br />우리의 마음을 담았습니다.
-              </p>
-              <p>
-                티미의 Too Much 환경 Information<br />
-                지금 시작합니다!
-              </p>
+      <div class="sns__container">
+        <img src="./img/contents/sns-intro.png" />
+        <div class="sns">
+          <div class="youtube">
+            <div class="youtube-intro">
+              <img src="./img/contents/youtube-intro.png" />
+            </div>
+            <a
+              class="youtube__profile"
+              href="https://youtube.com/channel/UCF_ADUp8BIvjHF45Zch73JQ"
+              target="blank"
+            >
+              <img src="img/contents/youtube-profile.jpg" />
+              <h2>티미의 TMI</h2>
+              <div class="youtube__btn">
+                <img src="./img/contents/youtube-btn.svg" />
+              </div>
+            </a>
+            <div class="youtube__video">
+              <iframe
+                width="988"
+                height="556"
+                src="https://www.youtube.com/embed/Qg_ty4nE7hQ"
+                frameborder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                allowfullscreen
+              ></iframe>
+              <div class="youtube__text">
+                <h3>환경문제, 어떻게 찾아보시나요?</h3>
+                <p>
+                  유튜브에서 환경문제를 쉽고, 재미있고, 정확하게! <br />그리고
+                  더 많은 사람에게 알리기 위한 우리의 마음을 담았습니다.
+                </p>
+                <p>
+                  티미의 Too Much 환경 Information<br />
+                  지금 시작합니다!
+                </p>
+                <div class="youtube-subscribe">
+                  <img src="./img/contents/youtube-subscribe.png" />
+                </div>
+              </div>
             </div>
           </div>
-        </div>
 
-        <div class="insta">
-          <a
-            class="insta__profile"
-            href="https://www.instagram.com/t_lids.information/"
-            target="blank"
-          >
-            <img src="img/tmi/tmi-profile.png" />
-            <div class="insta__link">
-              <div class="insta__ID">
-                <h3>t_lids.information</h3>
-                <div class="insta__btn">Instagram 바로가기</div>
-              </div>
-              <p>
-                재미없는 환경문제, 어떻게 해야 사람들이 많이 볼 수 있을까?
-                따분한 환경문제! 티미 리포터가 카드뉴스로 정확하고 재미있게
-                알려드릴게요.
-              </p>
-              <p>#친환경기업 #티리드 #Tlids</p>
+          <div class="insta">
+            <div class="insta-intro">
+              <img src="./img/contents/insta-intro.png" />
             </div>
-          </a>
-          <div class="insta__imges">
-            <a href="https://www.instagram.com/p/CGFB4QgJ69z/" target="blank">
-              <div class="insta__img">
-                <img src="img/tmi/instagram-link1.png" />
-                <div class="insta__img-hover">@t_lids.information</div>
+            <a
+              class="insta__profile"
+              href="https://www.instagram.com/t_lids.information/"
+              target="blank"
+            >
+              <img src="img/contents/insta-profile.png" />
+              <div class="insta__link">
+                <div class="insta__ID">
+                  <h3>t_lids.information</h3>
+                  <div class="insta__btn">
+                    <img src="img/contents/insta-btn.svg" />
+                  </div>
+                </div>
+                <h2>티리드</h2>
+                <p>
+                  재미없는 환경문제, 어떻게 해야 사람들이 많이 볼 수 있을까?<br />
+                  따분한 환경문제! 티미 리포터가 카드뉴스로 정확하고 재미있게
+                  알려드릴게요.
+                </p>
+                <p>#친환경기업 #티리드 #Tlids</p>
               </div>
             </a>
-            <a href="https://www.instagram.com/p/CFtr3KApZ0j/" target="blank">
-              <div class="insta__img">
-                <img src="img/tmi/instagram-link2.png" />
-                <div class="insta__img-hover">@t_lids.information</div>
-              </div>
-            </a>
-            <a href="https://www.instagram.com/p/CFeKJD0JFp4/" target="blank">
-              <div class="insta__img">
-                <img src="img/tmi/instagram-link3.png" />
-                <div class="insta__img-hover">@t_lids.information</div>
-              </div>
-            </a>
-            <a href="https://www.instagram.com/p/CFeIoBIJS5z/" target="blank">
-              <div class="insta__img">
-                <img src="img/tmi/instagram-link4.png" />
-                <div class="insta__img-hover">@t_lids.information</div>
-              </div>
-            </a>
-            <a href="https://www.instagram.com/p/CEq25V_pF6G/" target="blank">
-              <div class="insta__img">
-                <img src="img/tmi/instagram-link5.png" />
-                <div class="insta__img-hover">@t_lids.information</div>
-              </div>
-            </a>
-            <a href="https://www.instagram.com/p/CEV8O_yggZs/" target="blank">
-              <div class="insta__img">
-                <img src="img/tmi/instagram-link6.png" />
-                <div class="insta__img-hover">@t_lids.information</div>
-              </div>
-            </a>
+            <div class="insta__imges">
+              <a href="https://www.instagram.com/p/CGFB4QgJ69z/" target="blank">
+                <div class="insta__img">
+                  <img src="img/contents/instagram-link1.png" />
+                  <div class="insta__img-hover">@t_lids.information</div>
+                </div>
+              </a>
+              <a href="https://www.instagram.com/p/CFtr3KApZ0j/" target="blank">
+                <div class="insta__img">
+                  <img src="img/contents/instagram-link2.png" />
+                  <div class="insta__img-hover">@t_lids.information</div>
+                </div>
+              </a>
+              <a href="https://www.instagram.com/p/CFeKJD0JFp4/" target="blank">
+                <div class="insta__img">
+                  <img src="img/contents/instagram-link3.png" />
+                  <div class="insta__img-hover">@t_lids.information</div>
+                </div>
+              </a>
+              <a href="https://www.instagram.com/p/CFeIoBIJS5z/" target="blank">
+                <div class="insta__img">
+                  <img src="img/contents/instagram-link4.png" />
+                  <div class="insta__img-hover">@t_lids.information</div>
+                </div>
+              </a>
+              <a href="https://www.instagram.com/p/CEq25V_pF6G/" target="blank">
+                <div class="insta__img">
+                  <img src="img/contents/instagram-link5.png" />
+                  <div class="insta__img-hover">@t_lids.information</div>
+                </div>
+              </a>
+              <a href="https://www.instagram.com/p/CEV8O_yggZs/" target="blank">
+                <div class="insta__img">
+                  <img src="img/contents/instagram-link6.png" />
+                  <div class="insta__img-hover">@t_lids.information</div>
+                </div>
+              </a>
+            </div>
+            <div class="sns-outtro">
+              <img src="./img/contents/youtube-subscribe.png" />
+            </div>
           </div>
         </div>
       </div>
     </main>
 
     <footer class="footer">
-      <img class="footer__logo" src="img/t_lid_logo.png" />
-      <h3 class="company__name">티리드</h3>
-      <div class="company__info">
-        사업자등록번호 220 - 66 - 000288<br />
-        (16463) 수원시 팔달구 행궁로 98<br />
-        TEL : 000 - 000 - 0000 / FAX : 000 - 000 - 0000<br />
-        E-mail : 0000000@naver.com
+      <img class="footer__leaf" src="img/icon/footer-leaf.png" />
+      <div class="footer__info">
+        <div class="footer__logo">
+          <img src="img/icon/logo.svg" />
+          <h3>티 리 드</h3>
+        </div>
+        <div class="footer__info-detail">
+          <div class="business-number">
+            <span class="info__category">사업자등록번호 </span> 220-66-000288
+          </div>
+          <div class="footer__address">
+            <span class="info__category">주소 </span> 수원시 팔달구 행궁로 98
+            203호
+          </div>
+          <div class="footer__contact">
+            <span class="info__category">CONTACT </span> 000-000-0000 /
+            t-lid@daum.net
+            <div class="footer__link">
+              <img src="img/icon/youtube.svg" />
+              <img src="img/icon/instagram.svg" />
+            </div>
+          </div>
+        </div>
       </div>
-      <div class="footer__sns">
-        <a
-          class="sns_link-youTube"
-          href="https://www.instagram.com/t_lids.information/"
-          target="blank"
-          ><i class="fab fa-youtube fa-2x"></i
-        ></a>
-        <a
-          class="sns_link-insta"
-          href="https://www.instagram.com/t_lids.information/"
-          target="blank"
-          ><i class="fab fa-instagram fa-2x"></i
-        ></a>
-        <a
-          class="sns_link-facebook"
-          href="https://www.facebook.com/people/%ED%8B%B0%EB%A6%AC%EB%93%9C/100052228642694"
-          target="blank"
-          ><i class="fab fa-facebook-square fa-2x"></i
-        ></a>
-      </div>
-      <img class="footer__plant" src="img/background/footer-plant.png" />
-      <img class="footer__ground" src="img/background/ground.png" />
+      <div class="copyright">Copyright ⓒ T-lids. All rights reserved.</div>
     </footer>
 
     <script

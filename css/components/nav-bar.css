@@ -5,7 +5,8 @@
   justify-content: center;
   align-items: center;
   z-index: 3;
-  background-color: #523a2e;
+  background-color: #ffffff;
+  border-bottom: 1px solid #b2b2b2;
 }
 
 .nav-bar-container {
@@ -41,7 +42,7 @@
 .nav-bar__links a {
   text-decoration: none;
   font-size: 16px;
-  color: white;
+  color: #000000;
 }
 
 .nav-bar__links a:hover {

@@ -10,6 +10,7 @@
 @import "screen/screen-main.css";
 @import "screen/screen-story.css";
 @import "screen/screen-contents.css";
+@import "screen/screen-product.css";
 
 html {
   scroll-behavior: smooth;
@@ -17,7 +18,6 @@ html {
 
 body {
   font-family: "Noto Sans kr", sans-serif;
-  color: #2f363e;
   position: relative;
   line-height: 1.3;
 }

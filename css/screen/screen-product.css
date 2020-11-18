@@ -1,0 +1,56 @@
+.header-product {
+  background-image: url("../../img/background/stroy-down.jpg");
+  background-position: 50% 50%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  filter: opacity(0.9);
+}
+
+.product {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.introduction {
+  margin-top: 2vh;
+  width: 100%;
+  height: 100vh;
+  background-image: url("../../img/product/introduction.jpg");
+  background-position: 50% 50%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.explanation {
+  width: 769px;
+  max-width: 100%;
+  margin-top: 33vh;
+}
+
+.explanation h2 {
+  font-size: 45px;
+  font-weight: 500;
+}
+
+.explanation h1 {
+  font-size: 65px;
+  font-weight: 600;
+  color: #008c42;
+}
+
+.explanation p {
+  font-size: 14px;
+  color: #797979;
+  line-height: 1.5;
+  margin-top: 10vh;
+}
+
+#cost {
+  width: 430px;
+  height: 241px;
+}

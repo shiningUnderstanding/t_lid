@@ -1,9 +1,8 @@
 .header-contents {
-  background-image: url("../../img/background/stroy-down.jpg");
+  background-image: url("../../img/contents/contents_header.jpg");
   background-position: 50% 50%;
   background-repeat: no-repeat;
   background-size: cover;
-  filter: opacity(0.9);
 }
 
 .character {
@@ -190,6 +189,7 @@
 }
 
 .insta__profile {
+  position: relative;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -203,7 +203,7 @@
   border-bottom: 1px solid rgba(0, 0, 0, 0.2);
 }
 
-.insta__profile img {
+.insta__profile-img {
   padding-right: 5vw;
   width: 150px;
   height: 150px;
@@ -244,6 +244,12 @@
 .insta__link p:last-child {
   color: #466fa3;
   margin-top: 4vh;
+}
+
+.insta__check {
+  position: absolute;
+  bottom: -10px;
+  right: 20px;
 }
 
 .insta__imges {

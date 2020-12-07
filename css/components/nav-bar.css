@@ -46,11 +46,11 @@
 }
 
 .nav-bar__links a:hover {
-  color: #8ecc68;
+  color: #06810f;
   transition: 0.3s linear;
 }
 
 .nav-bar__links .on {
-  color: #8ecc68;
-  border-bottom: 2px solid #8ecc68;
+  color: #06810f;
+  border-bottom: 2px solid #06810f;
 }

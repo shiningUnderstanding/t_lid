@@ -11,6 +11,7 @@
 @import "screen/screen-story.css";
 @import "screen/screen-contents.css";
 @import "screen/screen-product.css";
+@import "screen/screen-contact.css";
 
 html {
   scroll-behavior: smooth;

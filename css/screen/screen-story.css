@@ -3,7 +3,6 @@
   background-position: 50% 50%;
   background-repeat: no-repeat;
   background-size: cover;
-  filter: opacity(0.9);
 }
 
 .story {
@@ -127,7 +126,7 @@
 
 .vision__card p {
   font-size: 14px;
-  padding: 40px 0 0 20px;
+  padding: 40px 15px 0 20px;
   line-height: 1.5;
 }
 

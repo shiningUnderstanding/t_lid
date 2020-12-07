@@ -1,0 +1,75 @@
+.contact {
+  width: 100%;
+  padding-top: 10vh;
+  margin-bottom: 19vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.map img {
+  width: 1000px;
+  max-width: 100%;
+  height: auto;
+}
+
+.contact-info {
+  margin-top: 100px;
+  width: 1000px;
+  max-width: 100%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.contact-info__title {
+  text-align: center;
+  font-weight: 300;
+  margin-left: 50px;
+}
+
+.contact-info__title h2 {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+.contact-info__title p {
+  font-size: 14px;
+}
+
+.contact-info__connect {
+  padding-left: 20px;
+  border-left: 1px solid #40ba65;
+}
+
+.connect {
+  display: flex;
+  align-items: center;
+  padding: 6px;
+}
+
+.connect span {
+  margin-left: 10px;
+  font-size: 14px;
+  font-weight: 300;
+}
+
+.connect p {
+  font-size: 20px;
+  margin-left: 42px;
+}
+
+.connect:nth-child(2) p {
+  margin-left: 66px;
+}
+.connect:last-child p {
+  margin-left: 61px;
+}
+
+.contact-info__sns {
+  padding-top: 80px;
+}
+
+.contact-info__sns img {
+  margin-right: 5px;
+}

@@ -1,6 +1,5 @@
 .header-contents {
-  background-image: url("../../img/contents/contents_header.jpg");
-  background-position: 50% 50%;
+  background-position: center center;
   background-repeat: no-repeat;
   background-size: cover;
 }
@@ -9,35 +8,41 @@
   display: flex;
   flex-direction: column;
   align-items: center;
-  background-image: url("../../img/contents/tmi-char.png");
+  background-image: url("../../img/contents/tmi-char.jpg");
   background-position: 50% 50%;
   background-repeat: no-repeat;
   background-size: cover;
   width: 100%;
   height: 156vh;
+  padding-top: 5vh;
   margin-bottom: 50px;
 }
 
-.character__title {
-  font-size: 20px;
-  font-weight: 300;
-  text-align: center;
-  padding-top: 15vh;
+.character .title {
+  width: 1000px;
+  max-width: 100%;
+  padding-top: 10vh;
   padding-bottom: 50px;
 }
 
 .character__video {
   width: 1000px;
   max-width: 100%;
+  margin-top: 80vh;
   display: flex;
+
+  position: relative;
 }
 
 .character__video iframe {
-  margin-top: 80vh;
   width: 460px;
   max-width: 50vw;
-  height: 360px;
+  height: 340px;
   max-height: 40vw;
+}
+
+.character__video img {
+  margin-left: 40px;
 }
 
 .sns__container {
@@ -45,6 +50,10 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  background-image: url("../../img/contents/sns-bg.png");
+  background-position: 50% 50%;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 .sns__tmi-intro {
@@ -61,6 +70,7 @@
   align-items: center;
   box-shadow: 4px 6px 15px 10px rgba(0, 0, 0, 0.2);
   margin-bottom: 10vh;
+  background-color: #fff;
 }
 
 .youtube {
@@ -88,10 +98,9 @@
   margin-bottom: 40px;
 }
 
-.youtube__profile h2 {
+.youtube__profile h3 {
   margin-left: 15px;
   margin-right: 60px;
-  font-size: 20px;
   font-weight: 600;
 }
 
@@ -124,20 +133,18 @@
 .youtube__text {
   width: 460px;
   max-width: 45vw;
-  margin-left: 5vw;
+  margin-left: 4vw;
   margin-right: 5px;
+  padding-bottom: 40px;
 }
 
 .youtube__text h3 {
-  font-size: 14px;
   font-weight: 600;
 }
 
 .youtube__text p {
   line-height: 1.5;
-  font-size: 14px;
   margin-top: 14px;
-  letter-spacing: 1px;
 }
 
 .youtube-subscribe {
@@ -217,7 +224,6 @@
 }
 
 .insta__ID h3 {
-  font-size: 20px;
   font-weight: 300;
 }
 
@@ -230,13 +236,12 @@
   filter: drop-shadow(5px 5px 5px rgba(0, 0, 0, 0.3));
 }
 
-.insta__link h2 {
-  font-size: 14px;
+.insta__link h3 {
+  font-size: 16px;
   font-weight: 600;
 }
 
 .insta__link p {
-  font-size: 14px;
   line-height: 1.5;
   margin: 10px 0;
 }
@@ -286,11 +291,11 @@
   left: 0;
   width: 100%;
   height: 100%;
-  z-index: -1;
 }
 
 .insta__img-hover {
   color: rgba(0, 0, 0, 0);
+  z-index: 1;
 }
 
 .insta__imges a:hover img {

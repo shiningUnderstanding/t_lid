@@ -1,0 +1,13 @@
+.title {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-weight: 200;
+}
+
+.title__line {
+  width: 291px;
+  height: 3px;
+  background-color: #d2d2d2;
+}

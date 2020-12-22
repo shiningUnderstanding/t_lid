@@ -1,5 +1,4 @@
 .header-product {
-  background-image: url("../../img/background/stroy-down.jpg");
   background-position: 50% 50%;
   background-repeat: no-repeat;
   background-size: cover;
@@ -43,7 +42,6 @@
 }
 
 .explanation p {
-  font-size: 14px;
   color: #797979;
   line-height: 1.5;
   margin-top: 10vh;
@@ -57,27 +55,13 @@
   align-items: center;
 }
 
-.why__title {
-  width: 100%;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-}
-
 .why__title h2 {
-  font-size: 60px;
   font-weight: 200;
-}
-
-.title__line {
-  width: 291px;
-  height: 3px;
-  background-color: #e7e7e7;
 }
 
 .subtitle {
   margin-top: 1vh;
-  font-size: 20px;
+  font-size: 24px;
   font-weight: 300;
 }
 
@@ -103,9 +87,8 @@
 .speciality-summary__text {
   margin: 0 0 10px 18px;
   padding: 0 5px;
-  font-size: 20px;
+  font-size: 24px;
   font-weight: 500;
-  box-shadow: inset 0 -8px 0 #facd89;
 }
 
 .specialities {
@@ -139,9 +122,7 @@
 
 .safety__text h3 {
   padding: 0 5px;
-  font-size: 24px;
   font-weight: 600;
-  box-shadow: inset 0 -8px 0 #facd89;
 }
 
 .safety__text p {
@@ -161,7 +142,7 @@
   margin: 10px 0;
 }
 .safety-reason span {
-  font-size: 14px;
+  font-size: 16px;
   margin-left: 12px;
 }
 
@@ -181,14 +162,11 @@
 .cost__text h3 {
   padding-left: 3px;
   width: 152px;
-  font-size: 24px;
   font-weight: 600;
-  box-shadow: inset 0 -8px 0 #facd89;
 }
 
 .cost__text p {
   margin-top: 2vh;
-  font-size: 16px;
   color: #797979;
   line-height: 1.5;
 }
@@ -204,14 +182,11 @@
 .comfortable h3 {
   padding-left: 3px;
   width: 120px;
-  font-size: 24px;
   font-weight: 600;
-  box-shadow: inset 0 -8px 0 #facd89;
 }
 
 .comfortable p {
   margin-top: 2vh;
-  font-size: 16px;
   color: #797979;
   line-height: 1.5;
 }
@@ -232,14 +207,11 @@
 .eco-friend h3 {
   padding-left: 3px;
   width: 120px;
-  font-size: 24px;
   font-weight: 600;
-  box-shadow: inset 0 -8px 0 #facd89;
 }
 
 .eco-friend p {
   margin-top: 2vh;
-  font-size: 16px;
   color: #797979;
   line-height: 1.5;
 }
@@ -260,7 +232,6 @@
 }
 
 .for-you__title h2 {
-  font-size: 60px;
   font-weight: 200;
 }
 
@@ -281,7 +252,6 @@
 
 .recommand__text h3 {
   margin-left: 10px;
-  font-size: 16px;
   font-weight: 500;
 }
 
@@ -295,4 +265,8 @@
 
 .for-you {
   margin-bottom: 20vh;
+}
+
+.highlight-product {
+  box-shadow: inset 0 -16px 0 #a4cd53;
 }

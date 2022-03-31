@@ -1,9 +1,6 @@
 # project for t_lid
 
-http://tlids.com/
+https://shiningunderstanding.github.io/t_lid/
 
 에 가시면 퍼블리싱한 페이지를 보실 수 있습니다.
 
-현재 기간이 만료 되어
-
-https://shiningunderstanding.github.io/t_lid/ 에서 보실 수 있습니다.
